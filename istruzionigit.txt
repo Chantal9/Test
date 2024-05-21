@@ -1,0 +1,26 @@
+git init -> crea una repository locale
+git status -> mi permette di verificare lo stato della repository locale
+git add 'nomefile' -> traccia il file con quel nome
+git add . -> traccia tutti i file nella cartella
+git commit -m "messaggio" -> salva nella repository locale
+git rm -> toglie la tracciatura
+
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+git config --global --list -> per vedere le impostazioni globali in lista di git
+
+salva a livello locale ma per condividerla serve un servizio di terzi che la salva in remoto (ie GitHub)
+git clone https://github.com/Chantal9/Test.git -> per copiare da GitHub la repository dentro la cartella locale già creata
+
+clear -> per ripulire il terminale
+
+per aggiungere una repository 
+
+echo "# Test" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main -> cambio branch con main -> 
+git remote add origin https://github.com/Chantal9/Test.git -> aggiungi il link 
+git push -> origin main
