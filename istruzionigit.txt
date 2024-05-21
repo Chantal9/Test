@@ -23,4 +23,4 @@ git add README.md
 git commit -m "first commit"
 git branch -M main -> cambio branch con main -> 
 git remote add origin https://github.com/Chantal9/Test.git -> aggiungi il link 
-git push -> origin main
+git push 
